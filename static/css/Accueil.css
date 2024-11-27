@@ -1,0 +1,156 @@
+.nav-cover {
+    background-color: #181818;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 10000;
+}
+
+#header .logo {
+    z-index: 20000;    
+}
+
+.underline {
+    text-decoration: underline;
+}
+  
+.animate {
+    border: 1px solid #0057ac;
+    border-radius: 50%;
+    width: 35px;
+    height: 45px;
+    background-color: #0057ac;
+    color: #ffffff;
+    padding: 3px 10px 0px 5px;
+}
+
+.border-20-orange {
+    border: 20px solid #f04e24;
+}
+
+.bg-orange {
+    background-color: #f04e24;
+}
+
+.d-none {
+    display: none;
+}
+
+@media only screen and (min-width: 972px) and (max-width: 1138px) {
+    #section1 .banner .outer {
+        top: 48.6%;
+        right: 8%;
+        font-size: 10%;
+        max-width: 100%;
+        width: 34%;
+        padding: 4.2%;
+    }
+    #section1 .banner .outer .outer-title h1 {
+        margin-bottom: 24px;
+        margin-top: -15px;
+        font-size: 38px;
+    }
+
+    #section1 .banner .outer .outer-body {
+        font-size: 18px;
+        margin-top: 14px;
+    }
+
+    #section1 .banner .outer .outer-action a {
+        font-size: 12px;    
+    }
+}
+
+@media only screen and (min-width: 867px) and (max-width: 973px) {
+    #section1 .banner .outer {
+        top: 49.4%;
+        right: 10%;
+        max-width: 100%;
+        width: 32.5%;
+        padding: 3.5%;
+    }
+    #section1 .banner .outer .outer-title h1 {
+        margin-bottom: 24px;
+        margin-top: -15px;
+        font-size: 29px;
+    }
+
+    #section1 .banner .outer .outer-body {
+        font-size: 18px;
+        margin-top: 14px;
+    }
+
+    #section1 .banner .outer .outer-action a {
+        font-size: 10px;    
+    }
+    
+    #section1 .banner .outer .outer-action a i {
+        margin: 0px 0px 0px 5px;
+    }
+
+    #section1 .banner .outer .caroussel-slide .slide-dot {
+        padding: 20px 0px 0px 0px;
+    }
+
+    #section1 .banner .outer .caroussel-slide .slide-dot li {
+        margin: 0 5px;
+        padding: 0;
+    }
+
+    #section1 .banner .outer .caroussel-slide .slide-dot li button {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 866px) {
+    #section1 .banner .outer {
+        top: 42.1%;
+        right: 10%;
+        max-width: 100%;
+        width: 32.5%;
+        padding: 3%;
+    }
+    #section1 .banner .outer .outer-title h1 {
+        margin-bottom: 24px;
+        margin-top: -15px;
+        font-size: 29px;
+    }
+
+    #section1 .banner .outer .outer-body {
+        font-size: 18px;
+    }
+
+    #section1 .banner .outer .outer-action a {
+        font-size: 10px;    
+    }
+    
+    #section1 .banner .outer .outer-action a i {
+        margin: 0px 0px 0px 5px;
+    }
+
+    #section1 .banner .outer .caroussel-slide .slide-dot {
+        padding: 10px 0px 10px 0px;
+        margin: 0px 0px 0px 0px;
+        height: 5px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 866px) {
+    #section1 .banner .outer {
+        top: 42.1%;
+        right: 10%;
+        max-width: 100%;
+        width: 32.5%;
+        padding: 3%;
+    }
+}
+
+@media(min-width: 992px) {
+
+}
+
+@media(min-width: 1200px) {
+
+}

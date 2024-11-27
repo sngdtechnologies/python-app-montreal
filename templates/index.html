@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/metrix.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome/css/all.css') }}">
+    <!-- <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    /> -->
+    <title>Page_d'accueil</title>
+</head>
+<body>
+    <div class="nav-cover" style="background-color: #181818; display: none;"></div>
+    <nav class="mx-nav">
+        <div class="mx-nav__aside">
+            <span class="mx-nav__aside-icon">
+                <i class="fas fa-align-justify"></i>
+            </span>
+            <div class="mx-nav__menu bg__gris d-none">
+                <ul class="mx-menu__items">
+                    <li class="mx-menu__item">
+                        <a href="#" class="mx-menu__link c-black">
+                            <span class="mx-menu__link-text">L'UdeM</span>
+                            <span class="mx-menu__link-icon">
+                                <i class="fas fa-angle-right "></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item">
+                        <a href="#" class="mx-menu__link c-black">
+                            <span class="mx-menu__link-text">ETUDES</span>
+                            <span class="mx-menu__link-icon">
+                                <i class="fas fa-angle-right "></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item">
+                        <a href="#" class="mx-menu__link c-black">
+                            <span class="mx-menu__link-text">FACULTES ET ECOLES</span>
+                            <span class="mx-menu__link-icon">
+                                <i class="fas fa-angle-right "></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item">
+                        <a href="#" class="mx-menu__link c-black">
+                            <span class="mx-menu__link-text">RECHERCHE</span>
+                            <span class="mx-menu__link-icon">
+                                <i class="fas fa-angle-right "></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item">
+                        <a href="#" class="mx-menu__link c-black">
+                            <span class="mx-menu__link-text">ACTIVITES ET SERVICES</span>
+                            <span class="mx-menu__link-icon">
+                                <i class="fas fa-angle-right "></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item">
+                        <a href="#" class="mx-menu__link c-black">
+                            <span class="mx-menu__link-text">NOS CAMPUS</span>
+                            <span class="mx-menu__link-icon">
+                                <i class="fas fa-angle-right "></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item bg__red">
+                        <a href="#" class="mx-menu__link c-white">
+                            <span class="mx-menu__link-text">Je donne</span>
+                            <span class="mx-menu__link-icon">
+                                <i class="fas fa-angle-right "></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item">
+                        <a href="#" class="mx-menu__link c-black">
+                            <span class="mx-menu__link-text d-in-block">
+                                <span class="w-15px"><span>en</span></span>
+                                <span class="w-60px">ENGLISH</span>
+                            </span>
+                            <span class="mx-menu__link-icon"></span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item bg__black">
+                        <a href="connexion.html" class="mx-menu__link">
+                            <span class="mx-menu__link-text">
+                                <i class="fas fa-user"></i> CONNEXION
+                            </span>
+                            <span class="mx-menu__link-icon">
+                                <i class="fas fa-angle-right "></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item bg__black">
+                        <a href="#" class="mx-menu__link">
+                            <span class="mx-menu__link-text">
+                                <i class="fas fa-bookmark"></i> LIENS RAPIDES
+                            </span>
+                            <span class="mx-menu__link-icon">
+                                <i class="fas fa-angle-right "></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="mx-menu__item bg__black">
+                        <a href="#" class="mx-menu__link">
+                            <span class="mx-menu__link-text d-in-block">
+                                <i class="fas fa-location"></i>
+                                <i class="fas fa-paper-plane"></i>
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <span class="mx-menu__link-icon d-block">
+                                <span>URGENCE</span>
+                                <span>7771</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mx-nav__logo">
+            <img src="{{ url_for('static', filename='image/logo.png') }}" alt="" class="mx-nav__logo-img">
+        </div>  
+    </nav> 
+
+    <section class="mx-banner">
+        <div class="mx-banner__img">
+            <img src="{{ url_for('static', filename='image/tof1.jpg') }}" alt="">
+        </div>
+        <div class="mx-banner__outer">
+            <div class="mx-banner__outer-title">
+                <h1>Admission autonome 2023</h1>
+            </div>
+            <div class="mx-banner__outer-body">
+                <p>Il est encore temps de déposer votre demande</p>
+            </div>
+            <div class="mx-banner__outer-action">
+                <a href="#">Explorer les programmes encore ouverts <i class="fas fa-angle-right"></i></a>
+            </div>
+            <div class="mx-banner__outer-slide">
+                <ul class="dot">
+                    <li class="dot__btn">
+                        <button type="button"></button>
+                    </li>
+                    <li class="dot__btn">
+                        <button type="button"></button>
+                    </li>
+                    <li class="dot__btn">
+                        <button type="button"></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-pub">
+        <div class="mx-pub__img">
+            <img src="{{ url_for('static', filename='image/tof4.png') }}" alt="">
+        </div>
+        <div class="mx-pub__desc">
+            <h3>Célébrons la langue française</h3>
+            <p>La Francofête du 7 au 31 mars</p>
+            <button>Decouvrez la programmation </button>
+        </div>
+    </section>
+
+    <section class="mx-admission">
+        <div class="mx-admission__title">
+            <h1>Admission</h1>
+        </div>
+        <div class="mx-admission__desc">
+            <p>Parmi les 600 programmes d’études offerts à l’Université de Montréal, il y a assurément celui que vous cherchez. Trouvez-le dès </br> maintenant!</p>
+        </div>
+        <div class="mx-admission__search">
+            <input type="tex" placeholder="Trouer votre programme d'etude "> 
+            <span class="c-red"><i class="fas fa-search"></i></span>      
+        </div>
+        <div class="mx-admission__link">
+            <a href="#">Explorer les programmes d'études</a><br><br>
+            <a href="#">Explorer les cours</a>
+        </div>
+    </section>
+
+    <section class="mx-new">
+        <div class="mx-new__title">
+            <a href="#" class="c-white">udemnouvelles</a>
+        </div>
+        <div class="row mx-new__hero">
+            <div class="col__6 mx-new__hero-img">
+                <img src="{{ url_for('static', filename='image/tof2.jpg') }}" alt="">
+            </div>
+            <div class="col__5 mx-new__hero-desc">
+                <p>14 mars 2023</p>
+                <a>
+                    La prévention du diabète de type 2 chez les jeunes, c’est possible sans médication     
+                </a>
+                <p>
+                    Une nouvelle étude confirme que 10 minutes d’activité physique ou une diminution du temps 
+                    d’écran suffisent à retarder l’apparition du diabète de type 2 et à ralentir son évolution chez les jeunes.
+                </p>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="col__1">fdfdfd</div>
+            <div class="col__2">fdfdfdfdfdf</div>
+        </div> -->
+        <div class="mx-new__items">
+            <div class="row">
+                <div class="col">
+                    <div class="mx-new__item">
+                        <div class="mx-new__item-img">
+                            <img src="{{ url_for('static', filename='image/tof9.jpg') }}" >
+                        </div>
+                        <div class="mx-new__item-content">
+                            <h4>14 mars 2003</h4>
+                            <p>Les défis du monde de </br> l’éducation, selon Ahlem </br> Ammar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mx-new__item">
+                        <div class="mx-new__item-img">
+                            <img src="{{ url_for('static', filename='image/tof10.jpg') }}" >
+                        </div>
+                        <div class="mx-new__item-content">
+                            <h4>16 avril 2003</h4>
+                            <p>La sous-scolarisation des hommes: un iceberg à l’horizon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mx-new__item">
+                        <div class="mx-new__item-img">
+                            <img src="{{ url_for('static', filename='image/tof11.jpg') }}" >
+                        </div>
+                        <div class="mx-new__item-content">
+                            <h4>19 avril 2003</h4>
+                            <p>Des neuroprothèses intelligentes pour retrouver la motricité</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="mx-new__action">
+            <p>Toutes les nouvelles</p>
+        </div>
+    </section>
+
+    <section class="mx-calendar">
+        <div class="mx-calendar__title">
+            <h1>Calendrier</h1>
+        </div>
+        <div class="mx-calendar__items">
+            <div class="row">
+                <div class="col">
+                    <div class="mx-calendar__item">
+                        <a href="#" class="mx-box">
+                            <div class="mx-box__date">
+                                <span class="mx-box__date-day">17</span>
+                                <span class="mx-box__date-month">MAR</span>
+                            </div>
+                            <div class="mx-box__hour">
+                                15:00
+                            </div>
+                            <div class="mx-box__content">
+                                <p>
+                                    La santé du cerveau comme pilier du bien être
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mx-calendar__item">
+                        <a href="#" class="mx-box">
+                            <div class="mx-box__date">
+                                <span class="mx-box__date-day">20</span>
+                                <span class="mx-box__date-month">MAR</span>
+                            </div>
+                            <div class="mx-box__hour">
+                                13:30 à 15:30
+                            </div>
+                            <div class="mx-box__content">
+                                <p>
+                                    La reine Margot, princesse scandaleuse ?
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mx-calendar__item">
+                        <a href="#" class="mx-box">
+                            <div class="mx-box__date">
+                                <span class="mx-box__date-day">20</span>
+                                <span class="mx-box__date-month">MAR</span>
+                            </div>
+                            <div class="mx-box__hour">
+                                18:00
+                            </div>
+                            <div class="mx-box__content">
+                                <p>
+                                    Ethique IA et justice
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="mx-calendar__action">
+            <p class="justify-content">
+                <a href="#" target="_blank">
+                    <span>Calendrier</span>
+                    <span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <section class="mx-do"> 
+        <div class="mx-do__title">
+            <h1>Faits et chiffres</h1>
+        </div>
+        <div class="mx-do__items">
+            <div class="row">
+                <div class="col">
+                    <div class="mx-do__item">
+                        <div class="mx-box-number">
+                            <p>
+                                <span class="mx-box-number__number c-orange">1</span>
+                                <sup class="mx-box-number__unit c-orange">re</sup>
+                            </p>
+                            <p class="mx-box-number__legend">au Québec</p>
+                            <p class="mx-box-number__text">L'UdeM
+                                forme avec ses écoles affiliées, HEC Montréal et Polytechnique 
+                                Montréal, le premier pôle d’enseignement supérieur du Québec.
+                            </p>
+                            <p class="mx-box-number__cube bg__orange"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mx-do__item">
+                        <div class="mx-box-number">
+                            <p>
+                                <span class="mx-box-number__number c-blue">4</span>
+                                <sup class="mx-box-number__unit c-blue">e</sup>
+                            </p>
+                            <p class="mx-box-number__legend">au Canada</p>
+                            <p class="mx-box-number__text">
+                                L’UdeM figure parmi les premières universités du Canada pour ce qui est du volume de ses activités de recherche.
+                            </p>
+                            <p class="mx-box-number__cube bg__blue"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="mx-do__item">
+                        <div class="mx-box-number">
+                            <p>
+                                <span class="mx-box-number__number c-green">111</span>
+                                <sup class="mx-box-number__unit c-green">e</sup>
+                            </p>
+                            <p class="mx-box-number__legend">dans le monde</p>
+                            <p class="mx-box-number__text">
+                                Au 111e rang international et au 6e rang du monde francophone, l’UdeM se 
+                                distingue parmi les quelque 18 500 universités que compte la planète.
+                            </p>
+                            <p class="mx-box-number__cube bg__green"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="mx-do__action">
+            <p class="justify-content">
+                <a href="#">
+                    <span class="voir">Voir tous les chiffres</span>
+                    <span><i class="fas fa-user"></i></span>
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <section class="mx-post">
+        <div class="mx-post__title">
+            <h1>Suivez-nous</h1>
+        </div>
+        <div class="mx-post__items">
+            <div class="row">
+                <div class="col__3">
+                    <div class="mx-post__item">
+                        <img src="{{ url_for('static', filename='image/tof3.jpg') }}" alt="" class="img-width">
+                    </div>
+                    <div class="mx-post__item">
+                        <img src="{{ url_for('static', filename='image/tof5.jpg') }}" alt="" class="img-width">
+                    </div>
+                </div>
+                <div class="col__5">
+                    <div class="mx-post__item">
+                        <img src="{{ url_for('static', filename='image/tof6.jpg') }}" alt="" class="img-width">
+                    </div>
+                </div>
+                <div class="col__3">
+                    <div class="mx-post__item">
+                        <img src="{{ url_for('static', filename='image/tof7.jpg') }}" alt="" class="img-width">
+                    </div>
+                    <div class="mx-post__item">
+                        <img src="{{ url_for('static', filename='image/tof8.jpg') }}" alt="" class="img-width">
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="mx-post__action">
+            <p class="justify-content">
+                <a href="#">
+                    <span>
+                        <i class="fas fa-facebook"></i>
+                    </span>
+                </a>&nbsp; &nbsp; &nbsp;&nbsp;
+                <a href="#">
+                    <span>
+                        <i class="fas fa-twitter"></i>
+                    </span>
+                </a>&nbsp; &nbsp; &nbsp;&nbsp;
+                <a href="#">
+                    <span>
+                        <i class="fas fa-instagram"></i>
+                    </span>
+                </a>&nbsp; &nbsp; &nbsp;&nbsp;
+                <a href="#" target="_blank">
+                    <span>
+                        <i class="fas fa-linkedin-in"></i>
+                    </span>
+                </a>
+            </p>
+            <p class="justify-content">
+                <a class="small-chevron-right" href="/abonnements/">
+                    <span>Abonnez-vous à nos infolettres</span>
+                </a>
+            </p>
+        </div>
+    </section>
+   
+    <script src="{{ url_for('static', filename='js/metrix.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    <script>
+        
+
+        //Mouse over to calendar call to action
+        let blocCCTA = document.querySelector(".mx-calendar__action a");
+        let blocCCTASpan = document.querySelector(".mx-calendar__action a span");
+        let blocCCTASpanIcon = document.querySelector(".mx-calendar__action a span:nth-child(2) i");
+        blocCCTA.addEventListener("mouseover", (e) => {
+            blocCCTASpan.classList.add("underline");
+            blocCCTASpanIcon.classList.add("animate");
+        });
+        blocCCTA.addEventListener("mouseout", (e) => {
+            blocCCTASpan.classList.remove("underline");
+            blocCCTASpanIcon.classList.remove("animate");
+        });
+
+        //responsive 
+        /*screenWidth = screen.width;
+        screenHeight = screen.height;
+
+        sectionBannerOuter(screenWidth, screenHeight);
+        function handle(e){
+            console.log("e", e);
+            sectionBannerOuter(screenWidth, screenHeight);
+        }
+        window.onresize = handle;
+        
+        function sectionBannerOuter(screenWidth, screenHeight) {
+            //#section1 .banner .outer
+            let outer = document.querySelector("#section1 .banner .outer");
+            let top = (((screenWidth * 199) / 1312) * 60) / 100;
+            outer.style.top = top + "px";
+            console.log(screenWidth, screenHeight);
+        }*/
+   </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Inscription </title>
+	<link rel="stylesheet" type="text/css" href="CSS/style_inscription.css">
+</head>
+<body>
+ <div class="FormInscrs">
+  <section>
+    <div class="ins"><h1>INSCRIPTION</h1></div>
+    <!-- <div class="image"><img src="Img/logo.JPEG" width="60px" height="40px"></div> -->
+  </section>
+  <!-- <h3>Bienvenue dans votre espace élève</h3></br> -->
+  <!--<div class="Form-text">Inscription</div>-->
+  <!--<span id="msg"></span>-->
+  <div class="Form-saisie">
+  	<form method="POST" action="">
+
+  		<span>Nom & Prenom</span>
+  		<input type="text" id="tnom" placeholder="Taper votre Nom et votre prenom" required/>
+
+  		<span>Adresse Email</span>
+  		<input type="email" id="temail" placeholder="taper votre adresse email" required />
+
+      <span>Numero de telephone</span>
+      <input type="number" id="tnumber" placeholder="tapez votre Numero de telephone" required/>
+
+  		<span>Mot de passe</span>
+  		<input type="password" id="tpassword" placeholder="taper votre mot de passe" required/>
+      
+      <span>Confirmer Mot de passe</span>
+      <input type="password" id="tpassword_confirm" placeholder="retaper votre mot de passe" required/> 
+      
+   	<center><input type="submit" id="btn_Inscris" value="S'INSCRIRE" class="btnInscris" id="btn_Inscris"></center>
+  		<P>vous avez inscris ?&nbsp; <a href="connexion.html">connectez-vous</a></P>
+  	</form>
+   </div>
+  </div>
+  <!--jQuery-->
+</body>
+</html>

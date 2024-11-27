@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+}
+body{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+     font-size: 16px;
+     color: #fff;
+    /* background-color: #b9b5b5;*/
+    background: url("../img/tof13.png");
+    height: 500px;
+    width: 300px;
+    background-size:cover;
+    background-position: center; 
+
+}
+.Formcinsc{
+	width: 370px;
+	height: 450px;
+	
+	background-color: white;
+	position: absolute;
+	margin: auto;
+	padding: 30px;
+	border-radius: 5px;
+	border-top: 4px solid #1d4adb ;
+	border-bottom: 5px solid #1d4adb ;
+	box-shadow: 0 0 10px #000;
+}
+.Form-text{
+	font-family: 32px;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 30px;
+	justify-content: center;
+}
+.Form-saisie span{
+	font-size: 14pxp;
+	font-weight: bold;
+
+}
+.Form-saisie input{
+	width: 100%;
+	font-size: 16px;
+	outline: none;
+	background-color:white;
+	color:black; 
+	margin: 10px 0;
+	padding: 10px;
+	border-radius: 10px;
+	border: 2px solid black
+	
+
+}
+.Form-saisie input[type="submit"].btnInscris{
+	width: 100%;
+	font-size: 18px;
+	background-color:#46cb49; 
+	color: #fff;
+	margin: 10px 0;
+	padding:  30px;
+	border:none;
+	border-radius:10px ;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.Form-saisie input[type="submit"].btnInscri:hover{
+	background: red;
+}
+.Form-saisie a{
+	font-size: 14px;
+	font-weight: bold;
+	color:#1d4adb; 
+}
+.Formconn{
+	width: 370px;
+	height: 400px;
+	
+	background-color: white;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 30px;
+	border-radius: 5px;
+	border-top: 4px solid #1d4adb ;
+	border-bottom: 5px solid #1d4adb ;
+	box-shadow: 0 0 10px #000;
+}
+.Form-saisie input[type="submit"].btnconn{
+	width: 60%;
+	font-size: 12px;
+	background-color:#1d4adb; 
+	color: #fff;
+	margin: 10px 0;
+	padding:  10px;
+	border:none;
+	justify-content: center;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+h3{
+	font-size: 30px;
+	margin-top: -15px;
+	color: blue;
+	text-align: center;
+	
+}
+h1{
+   margin-top: -15px;
+   color: black;
+}
+span{
+	margin-bottom: 20px;
+	color: black;
+}
+section{
+	display: flex;
+	flex-wrap: wrap;
+}
+section .image{
+	margin-top: -25px;
+	float: left;
+	margin-right: 30px;
+}
+p{
+	color: black;
+}
+
+a{
+	text-decoration: none;
+	float: right;
+}
+
+@media(min-width:700px) and (max-width:900px){
+	.Formconn{
+		width: 70%;
+	}
+}
+
+@media(min-width: 901px){
+	.Formconn{
+		width: 30%
+	}
+}
